@@ -9,21 +9,13 @@ function Home() {
     <HomeContainer>
       <Heading>Exam Coordination System</Heading>
       <Description>
-        I am a veryy abd guy please strayy away from me your motherfucking
-        bitchh
+        In this exam app, you can currently see "Date Sheet" and "Add Exams" if
+        you are Admin.
       </Description>
       <Buttons>
         <Link href="/datesheet">
-          <Button>Hello Boys</Button>
-          {/*
-          {user ? (
-            <Button>{user.displayName}</Button>
-          ) : (
-            <Button>Hello Boys</Button>
-          )}
-          */}
+          <Button>Datesheet</Button>
         </Link>
-        <Button>Bye NBOys</Button>
       </Buttons>
     </HomeContainer>
   );
